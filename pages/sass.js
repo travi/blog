@@ -1,7 +1,7 @@
 import React from 'react'
-import './example.scss'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
+import './example.scss'
 
 export default class Sass extends React.Component {
   render () {

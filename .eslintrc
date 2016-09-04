@@ -13,6 +13,9 @@
     "react/prefer-stateless-function": [0],
     "import/no-unresolved": [0],
     "global-require": [0],
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/href-no-hash": "warn"
   },
   "globals": {
     "__PREFIX_LINKS__": true,

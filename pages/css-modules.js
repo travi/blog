@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './example.module.css'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
+import styles from './example.module.css'
 
 export default class PostCSS extends React.Component {
   render () {

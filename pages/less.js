@@ -1,7 +1,7 @@
 import React from 'react'
-import './example.less'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
+import './example.less'
 
 export default class Less extends React.Component {
   render () {

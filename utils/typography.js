@@ -1,3 +1,4 @@
+/* global document */
 import ReactDOM from 'react-dom/server'
 import React from 'react'
 import Typography from 'typography'
