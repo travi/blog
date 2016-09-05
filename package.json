@@ -55,7 +55,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "deploy": "gatsby build --prefix-links && gh-pages --silent --repo https://$GH_TOKEN@github.com/travi/blog.git -d public",
     "develop": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "npm run lint",
