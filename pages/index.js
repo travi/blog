@@ -5,7 +5,7 @@ import DocumentTitle from 'react-document-title'
 import { config } from 'config'
 
 export default class Index extends React.Component {
-  render () {
+  static render () {
     return (
       <DocumentTitle title={config.siteTitle}>
         <div>

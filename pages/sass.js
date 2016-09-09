@@ -4,7 +4,7 @@ import { config } from 'config'
 import './example.scss'
 
 export default class Sass extends React.Component {
-  render () {
+  static render () {
     return (
       <DocumentTitle title={`${config.siteTitle} | Hi sassy friends`}>
         <div>

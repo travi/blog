@@ -4,7 +4,7 @@ import { config } from 'config'
 import './example.css'
 
 export default class PostCSS extends React.Component {
-  render () {
+  static render () {
     return (
       <DocumentTitle title={`${config.siteTitle} | Hi PostCSSy friends`}>
         <div>
