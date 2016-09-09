@@ -4,7 +4,7 @@ import { config } from 'config'
 import './example.less'
 
 export default class Less extends React.Component {
-  render () {
+  static render () {
     return (
       <DocumentTitle title={`${config.siteTitle} | Hi lessy friends`}>
         <div>
