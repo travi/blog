@@ -10,7 +10,7 @@
     "front-matter": "^2.0.7",
     "gatsby": "^0.12.0",
     "highlight.js": "^9.6.0",
-    "history": "^3.2.1",
+    "history": "^4.0.0",
     "js-yaml": "^3.6.0",
     "markdown-it": "^7.0.1",
     "markdown-it-abbr": "^1.0.3",
