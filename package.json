@@ -2,6 +2,14 @@
   "name": "blog",
   "private": true,
   "author": "Matt Travi <programmer@travi.org>",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages --silent --repo https://$GH_TOKEN@github.com/travi/blog.git -d public",
+    "develop": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "npm run lint",
+    "start": "gatsby develop"
+  },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.0",
     "babel-preset-es2015": "^6.13.2",
@@ -52,13 +60,5 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages --silent --repo https://$GH_TOKEN@github.com/travi/blog.git -d public",
-    "develop": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "npm run lint",
-    "start": "gatsby develop"
-  }
+  "license": "MIT"
 }
