@@ -35,7 +35,7 @@
     "react-router": "^2.6.1",
     "react-typography": "^0.14.0",
     "toml-js": "0.0.8",
-    "typography": "^0.13.0",
+    "typography": "^0.14.0",
     "typography-plugin-code": "^0.13.0"
   },
   "devDependencies": {
