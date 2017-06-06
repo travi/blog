@@ -37,7 +37,7 @@
     "react-typography": "0.15.0",
     "toml-js": "0.0.8",
     "typography": "0.15.0",
-    "typography-plugin-code": "0.15.2"
+    "typography-plugin-code": "0.15.11"
   },
   "devDependencies": {
     "babel-core": "6.21.0",
