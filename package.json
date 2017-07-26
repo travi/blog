@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "babel-core": "6.21.0",
-    "babel-loader": "6.2.10",
+    "babel-loader": "6.3.0",
     "babel-preset-react-hmre": "1.1.1",
     "css-loader": "0.26.1",
     "eslint": "3.13.1",
