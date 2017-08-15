@@ -1,4 +1,6 @@
 # blog
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/blog.svg)](https://greenkeeper.io/)
 [![Build Status](https://img.shields.io/travis/travi/blog/master.svg?style=flat)](https://travis-ci.org/travi/blog)
 
 
